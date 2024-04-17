@@ -1,0 +1,27 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Courier, monospace;
+    overflow: hidden;
+}
+
+.height {
+    height: 100vh;
+}
+
+.form {
+    padding: 2em;
+    background: rgba(72, 151, 255, 0.555);
+    border-radius: 1em;
+}
+
+.pos_btn {
+    display: flex;
+    justify-content: end;
+}
+
+.btn {
+    color: rgb(72, 151, 255);
+    border: solid 1px rgb(41, 134, 255);
+}
