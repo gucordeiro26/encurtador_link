@@ -8,16 +8,16 @@ class LinkController extends Controller
 {
     public function generate()
     {
-        return View("site.generate");
+        return View("app.generate");
     }
 
     public function remove()
     {
-        return View("site.remove");
+        return null;
     }
 
     public function list()
     {
-        return View("site.list");
+        return View("app.list");
     }
 }

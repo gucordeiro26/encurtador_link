@@ -25,3 +25,37 @@
     color: rgb(72, 151, 255);
     border: solid 1px rgb(41, 134, 255);
 }
+
+.btn:hover {
+    color: rgb(72, 151, 255);
+    background: rgba(255, 255, 255, 0.45);
+    border: solid 1px rgb(41, 134, 255);
+}
+
+.nav_bar {
+    background: rgba(72, 151, 255, 0.6);
+    padding: 1em 0 0 0;
+}
+
+.nav-item {
+    transition: .15s ease-in-out;
+    padding: .75em 1.5em;
+    border-radius: 1em;
+}
+
+.nav-item:hover {
+    padding: .75em 1.5em;
+    background: rgb(101, 153, 202);
+    border-radius: 1em;
+    transition: .15s ease-in-out;
+}
+
+.nav-link {
+    font-size: 1.5em;
+    font-weight: bold;
+    color: rgb(0, 56, 109);
+}
+
+.label {
+    color: rgb(0, 56, 109);
+}
