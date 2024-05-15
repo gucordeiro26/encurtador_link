@@ -14,4 +14,9 @@ class IndexController extends Controller
     public function redirect()
     {
     }
+
+    public function contact()
+    {
+        return View("site.contact");
+    }
 }

@@ -19,6 +19,8 @@ Route::get('/', [App\Http\Controllers\IndexController::class, 'index'])->name("s
 
 Route::get('/redirect', [App\Http\Controllers\IndexController::class, 'redirect'])->name("site.redirect");
 
+Route::get('/contact', [App\Http\Controllers\IndexController::class, 'contact'])->name("site.contact");
+
 
 /* Account Routes */
 

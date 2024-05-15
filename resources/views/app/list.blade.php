@@ -4,25 +4,8 @@
 
 @section('content')
     
-<div class="row height">
-    <div class="col-12">
-
-        <header>
-            <div class="row">
-                <div class="col-12 nav_bar">
-                    <div class="col-4">
-                        <ul class="navbar justify-content-center">
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('site.index') }}">Início</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="{{ route('app.generate') }}">Gerar Link</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </header>
+    @component('layouts._components.menu_app')
+    @endcomponent
 
         <div class="row mt-5">
             <div class="col-10">
@@ -56,8 +39,5 @@
                 </div>
             </div>
         </div>
-
-    </div>
-</div>
 
 @endsection
