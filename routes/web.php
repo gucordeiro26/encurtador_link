@@ -42,3 +42,10 @@ Route::prefix('/app')->group(function () {
     Route::get('/list', [App\Http\Controllers\LinkController::class, 'list'])->name("app.list");
 
 });
+
+
+/* Fallback Function */
+
+Route::fallback(function () {
+    echo 'A rota acessada não existe.<br>Clique para <a href="' . route('site.index') . '"> Voltar a página principal</a>';
+});
