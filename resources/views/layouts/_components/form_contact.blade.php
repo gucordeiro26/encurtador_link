@@ -2,7 +2,7 @@
         <div class="col-12">
             <div class="row h-100 d-flex justify-content-center align-items-center">
                 <div class="col-4">
-                    <form class="{{ $dark }}" action="{{ route('site.contact') }}" method="POST">
+                    <form class="p-3 rounded border border-dark" action="{{ route('site.contact') }}" method="POST">
                         @csrf
                         <div class="mb-3">
                             <label class="form-label" for="nome">Nome Completo</label>
@@ -28,7 +28,7 @@
                             </select>
                         </div>
 
-                        <button class="btn btn-secondary mb-3" type="submit">Enviar</button>
+                        <button class="btn btn-light mb-3" type="submit">Enviar</button>
                     </form>
                 </div>
             </div>

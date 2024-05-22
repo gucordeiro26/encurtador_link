@@ -4,10 +4,10 @@
 
 @section('content')
 
-        @component('layouts._components.menu_site')
+        @component('layouts._components.menu_app')
         @endcomponent
 
-        @component('layouts._components.form_contact', ['dark' => 'bg-light'])
+        @component('layouts._components.form_contact')
         @endcomponent
 
 @endsection

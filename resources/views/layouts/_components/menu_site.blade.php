@@ -16,7 +16,7 @@
                         <a class="nav-link" href="{{ route('site.login') }}">Login</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="{{ route('app.generate') }}">Cadastrar</a>
+                        <a class="nav-link" href="{{ route('site.register') }}">Cadastrar</a>
                     </li>
                 </ul>
             </div>
